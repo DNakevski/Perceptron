@@ -20,7 +20,8 @@ public class Main {
 		System.out.println("");
 		perceptron.Train();
 		
-		//Se zemaat site podatoci za treniranje na perceptronot
+		//Po zavrsuvanje na treniranjeto
+		//Se zemaat site podatoci za testiranje na perceptronot
 		//i istite mu se dodeluvaat
 		List<DataSet> testingList = GenerateTestingData();
 		perceptron.SetTestingData(testingList);
@@ -29,6 +30,8 @@ public class Main {
 		System.out.println("Testiranje...");
 		System.out.println("==================================================");
 		
+		//Se povikuva za funkcijata za testiranje na perceptronot
+		//Ista ja pecati ratata na uspeshnost
 		perceptron.Test();
 		
 		System.out.println("==================================================");

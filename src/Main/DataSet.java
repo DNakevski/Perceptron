@@ -20,7 +20,7 @@ public class DataSet {
 	}
 	
 	//Go kalkulira izlezot vo zavisnot od dobienite vektori 
-	//i pragovata vrednost go zapisuva vo Output promenlivata
+	//i pragovata vrednost, Rezultatot go zapisuva vo Output promenlivata
 	public void CalculateOutput(double[] w, double t)
 	{
 		double x1 = this.Polozuvanje * w[0];
